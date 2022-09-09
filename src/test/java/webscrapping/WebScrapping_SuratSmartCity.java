@@ -26,7 +26,7 @@ public class WebScrapping_SuratSmartCity {
 		driver.quit();
 	}
 
-	/****** Driver Initialization & Navigating to the url ******/
+	/****** Driver Initialization & Navigating to the website url ******/
 	public static void setup() {
 		String driverPath = System.getProperty("user.dir") + "/src/main/resources/Drivers/chromedriver.exe";
 
